@@ -121,6 +121,11 @@ p{
     border-radius: 100px;
 }
 
+.img_profile:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 #video {
     flex-direction: column;
     margin: 2rem auto;
@@ -230,7 +235,7 @@ form button:hover {
 #mapa {
     width: 480px;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 #endereco > p{
